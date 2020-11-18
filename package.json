@@ -1,0 +1,31 @@
+{
+  "name": "mini-web-app-builder",
+  "version": "1.0.0",
+  "description": "a small app builder that will build static sites from your files",
+  "main": "bin/mwab.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/imagineeeinc/mini-web-app-builder.git"
+  },
+  "keywords": [
+    "web",
+    "app",
+    "builder"
+  ],
+  "author": "imagineee",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/imagineeeinc/mini-web-app-builder/issues"
+  },
+  "homepage": "https://github.com/imagineeeinc/mini-web-app-builder#readme",
+  "bin": {
+    "mwab": "bin/mwab.js"
+  },
+  "dependencies": {
+    "chalk": "^4.1.0",
+    "yargs": "^13.2.4"
+  }
+}

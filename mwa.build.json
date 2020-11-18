@@ -1,0 +1,39 @@
+{
+    "name": "my mini web app",
+    "description": "a web app made with MW App Builder",
+    "config": {
+        "build_out": "out",
+        "sw": true,
+        "manifest": true
+    },
+    "manifest": {
+        "name": "my mini web app",
+        "display": "standalone",
+        "start_url": "index.html",
+        "short_name": "MWA",
+        "theme_color": "#7ee0c1",
+        "description": "a web app made with MW App Builder",
+        "orientation": "portrait",
+        "background_color": "#7ee0c1",
+        "icons": [
+            {
+                "src": "icons/icon.png",
+                "sizes": "120x120"
+            }
+        ],
+        "screenshots": [
+            {
+                "src": "/screenshots/screen.png"
+            }
+        ],
+        "features": [
+            "Cross Platform",
+            "fast",
+            "simple",
+            "small"
+        ],
+        "categories": [
+            "utility"
+        ]
+   }
+}
